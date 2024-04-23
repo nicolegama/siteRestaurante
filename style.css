@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+@font-face {
+    font-family: 'japanese' ;
+    src: url('Japanese\ Style.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'emperor';
+    src: url('JapaneseEmperor.otf') format('opentype');
+}
+hr {
+    border: none; /* Remove a borda padrão */
+    height: 5px; /* Define a altura da linha */
+    background-color: #2e0303; /* Define a cor de fundo da linha */
+    margin: 20px 0; /* Define a margem superior e inferior da linha */
+}
+.teste{
+    color: #171418;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+.caixinha{
+    background-color:  rgb(238, 223, 223);
+    color:crimson;
+    border-top: 50;
+    padding-left:25px ;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-width: 30px;
+    border-right:solid;
+    border-color: rgb(238, 223, 223);
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: medium;
+}
+.caixaMenu{
+    background-color:  rgb(65, 14, 14);
+    color:crimson;
+    border-top: 50;
+    padding-left:25px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 30px;
+    border-right:solid;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(65, 14, 14);
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: medium;
+}
+.outraCaixa{
+    background-color:  rgb(0, 0, 0);
+    color:rgb(238, 223, 223);
+    border-top: 50;
+    padding-left:25px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 30px;
+    border-right:solid;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(0, 0, 0);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: medium;
+}
+.barraInfo{
+    background-color: aqua;
+}
+.container {
+    display: flex; /* Cria um layout flexível */
+    justify-content: space-between; /* Distribui os itens ao longo do contêiner */
+    color: blanchedalmond;
+}
+.left, .right {
+    flex: 1;
+    padding: 10px;
+  }
+.container-topleft {
+    display: flex; /* Cria um layout flexível */
+    text-align: left; /* Distribui os itens ao longo do contêiner */
+    flex-direction: column;
+}
+.container-topright {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+}
+.p1{
+    color: blanchedalmond;
+}
+span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);  
+    background-color: rgb(0, 0, 0); 
+  }
